@@ -166,13 +166,13 @@ try:
     # extraction
     logging.info("extracting table")
     
+    """
     target_found = False
     while not target_found:
         # Scroll down incrementally
         #driver.execute_script("window.scrollBy(0, 300);")  # Scroll by 300 pixels
         time.sleep(5)  # Pause to allow content to load
 
-        """
         # Check if the target element is now visible
         try:
             WebDriverWait(driver, 1).until(
@@ -182,7 +182,7 @@ try:
             target_found = True  # Set the flag to True to exit the loop
         except:
             pass  # Element not found yet, continue scrolling
-        """
+    """
             
     #driver.execute_script("window.scrollBy(0, 300);")  # Scroll 300 pixels at a time
     
