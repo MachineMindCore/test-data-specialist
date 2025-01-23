@@ -1070,3 +1070,29 @@ INFO:root:extracting table
 INFO:root:table extracted
 INFO:root:table exported to csv
 INFO:root:task done
+INFO:root:Setting up driver
+INFO:root:Getting CoinMarketCap webpage
+WARNING:root:Cookies didnt show up
+INFO:root:Showing columns panel
+WARNING:root:Cookies didnt show up
+INFO:root:column option applied: 1h %
+WARNING:root:Cookies didnt show up
+INFO:root:column option applied: Dominance %
+WARNING:root:Cookies didnt show up
+INFO:root:column option applied: 7d %
+INFO:root:column option applied: 7d Chart
+WARNING:root:Cookies didnt show up
+INFO:root:all column options applied
+INFO:root:waiting filter panel
+WARNING:root:Cookies didnt show up
+INFO:root:showing filters panel
+WARNING:root:Cookies didnt show up
+WARNING:root:Cookies didnt show up
+INFO:root:filter selected
+WARNING:root:Cookies didnt show up
+WARNING:root:Cookies didnt show up
+INFO:root:all filters option applied
+INFO:root:extracting table
+INFO:root:table extracted
+INFO:root:table exported to csv
+INFO:root:task done
