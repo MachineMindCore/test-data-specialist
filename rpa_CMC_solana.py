@@ -164,31 +164,11 @@ try:
     TABLE_XPATH = "//table[contains(@class, 'cmc-table')]"
     
     # extraction
-    logging.info("extracting table")
+    logging.info("extracting table")        
     
-    """
-    target_found = False
-    while not target_found:
-        # Scroll down incrementally
-        #driver.execute_script("window.scrollBy(0, 300);")  # Scroll by 300 pixels
-        time.sleep(5)  # Pause to allow content to load
-
-        # Check if the target element is now visible
-        try:
-            WebDriverWait(driver, 1).until(
-                EC.visibility_of_element_located((By.XPATH, "//*[text()='Show rows']"))
-            )
-            print("Target element found!")
-            target_found = True  # Set the flag to True to exit the loop
-        except:
-            pass  # Element not found yet, continue scrolling
-    """
-            
-    #driver.execute_script("window.scrollBy(0, 300);")  # Scroll 300 pixels at a time
-    
-    #driver.find_element(By.XPATH, "//a[text()='Show rows']/following-sibling::div").click()
-    #time.sleep(5)
-
+    for i in range(15):
+        driver.execute_script("window.scrollBy(0, 500);")  # simulating scroll to avoid html freezing
+        time.sleep(0.5)
     table = driver.find_element(By.XPATH, TABLE_XPATH)
     rows = table.find_elements(By.TAG_NAME, "tr")
 
